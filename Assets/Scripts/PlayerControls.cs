@@ -27,8 +27,7 @@ public class PlayerControls : MonoBehaviour
     [SerializeField] 
     [Range(0f, 1f)] 
     private float lerpPct = 0.5f;
-    // Start is called before the first frame update
-
+    
     public void ChangeControls(ControlMethods method)
     {
         CurrentControl = method;
