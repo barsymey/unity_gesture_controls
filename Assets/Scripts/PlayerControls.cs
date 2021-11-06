@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -111,11 +109,7 @@ public class PlayerControls : MonoBehaviour
         }
         transform.position = Vector3.Lerp(_posMin, _posMax, lerpPct);
     }
-    void Start()
-    {
-    }
 
-    // Update is called once per frame
     void Update()
     {
         Move();
