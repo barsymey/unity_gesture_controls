@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -11,6 +9,7 @@ public class Swipe : MonoBehaviour
     private float _yChange;
     public UnityEvent OnSwipeLeft;
     public UnityEvent OnSwipeRight;
+    
     public void SetStartPosition()
     {
         _startPosition = Input.mousePosition;
